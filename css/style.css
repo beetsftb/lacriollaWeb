@@ -314,7 +314,7 @@ header{
 
   .overflow{
     position: absolute;
-    top: 30%;
+    top: 20%;
     left:55%;
     transform: translate(-10%,-30%);
     padding-bottom: 50px;
