@@ -391,10 +391,13 @@ header{
 .gestAmbientalContenedor h1{
     font-size: 60px;
     font-weight:lighter;
+
 }
 
 .gestAmbientalContenedor p{
     font-size: 35px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 
 .card{
