@@ -322,7 +322,7 @@ header{
   
   .carousel-controls {
     position: absolute;
-    top: 50%;
+    top: 40%;
     transform: translateY(-50%);
     display: flex;
     justify-content: space-between;
@@ -339,3 +339,87 @@ header{
     color:#90ce67;
     margin-left: 10px;
   }
+
+
+  /*Boton Ver Mas*/
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+.ver-mas-btn{
+    background-color: #fff;
+    height: 40px;
+   
+    color:#333;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    line-height: 40px;
+ 
+}
+
+.ver-mas-btn:hover{
+    background-color: #ccc;
+}
+
+
+/*Sección Gestión Ambiental*/
+.gestAmbientalContenedor{
+    background: linear-gradient(to bottom, #1ad8bc 70%, #fff 50%);
+    padding: 20px;
+    color:#fff;
+    text-align: center;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+.gestAmbientalContenedor h1{
+    font-size: 72px;
+    font-weight:lighter;
+}
+
+.gestAmbientalContenedor p{
+    font-size: 40px;
+}
+
+.card{
+    width: calc(33.33% - 20px);
+    padding: 20px;
+    background-color: #fff;
+    color:#333;
+    float:left;
+    box-sizing: border-box;
+    border: 1px solid #1ad8bc;
+    margin:10px;
+    border-radius: 10px;
+    transition: transform 0.2s;
+}
+
+
+.card h2{
+    font-size: 24px;
+    color: #1ad8bc;
+
+}
+
+.card p{
+    font-size: 18px;
+ 
+}
+
