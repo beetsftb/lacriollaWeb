@@ -470,7 +470,7 @@ header{
 
 .content-column{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Divide en 3 columnas con igual ancho */
+    grid-template-columns: repeat(4, 1fr); /* Divide en 4 columnas con igual ancho */
     gap: 20px; /* Espacio entre columnas */
     padding: 20px;
 
@@ -541,3 +541,20 @@ header{
     transform: scale(1.2);
   }
 
+  /*Seccion Donde estamos*/
+  .section-donde-estamos{
+    max-width: 100%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+ 
+
+  }
+
+  .section-donde-estamos .section-donde-estamos-header h1{
+    color:#90ce67;
+    font-weight: lighter;
+    font-size: 60px;
+
+  }
