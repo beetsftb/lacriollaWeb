@@ -430,3 +430,80 @@ header{
     height: 15px;
     background: linear-gradient(to left, #ccc 0%, #fff 50%, #ccc 100%);
 }
+
+
+/*Sección nuestros números*/
+.section-nuestros-numeros{
+    width: 95%;
+    margin:0 auto;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section-nuestros-numeros .section-nuestros-numeros-header{
+    width: 100%;
+    border:2px solid #ffc216;
+    background: #f2f2f2;
+    display: flex;
+    align-items: center;
+    padding-top: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 20px;
+    margin-bottom:40px;
+    border-radius: 10px;  
+}
+
+.section-nuestros-numeros .section-nuestros-numeros-header .section-nuestros-numeros-logo{
+    width: 90px;
+    height: 95px;
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.section-nuestros-numeros .section-nuestros-numeros-header h2{
+    text-align: center;
+    color:#90ce67;
+    font-weight: lighter;
+    font-size: 50px;
+}
+
+.content-column{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Divide en 3 columnas con igual ancho */
+    gap: 20px; /* Espacio entre columnas */
+    padding: 20px;
+
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: flex-start;
+}
+
+.cell{
+    text-align: center;
+   
+}
+
+.number {
+    font-size: 48px;
+    color: #ffc216;
+    font-weight: bolder;
+  }
+  
+  .line {
+    width: 80%;
+    border: 1px solid #ccc;
+
+  }
+  
+  .cell p {
+    font-size: 20px;
+    color: #000;
+
+  }
