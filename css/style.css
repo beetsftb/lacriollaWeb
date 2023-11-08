@@ -352,7 +352,6 @@ header{
 .ver-mas-btn{
     background-color: #fff;
     height: 40px;
-   
     color:#333;
     font-weight: bold;
     border: none;
@@ -436,7 +435,6 @@ header{
 .section-nuestros-numeros{
     width: 95%;
     margin:0 auto;
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -507,3 +505,39 @@ header{
     color: #000;
 
   }
+
+  /*Sección Sinergias*/
+
+  .section-sinergias{
+    background: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+
+  }
+
+  .section-sinergias h2{
+    font-size: 60px;
+    color:#4d4d4d;
+  }
+
+  .section-sinergias .section-sinergias-logos{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-sinergias-logos .section-sinergias-logos-logo{
+    width: 18%;
+    height: auto; /* Permite que la altura se ajuste automáticamente para mantener la relación de aspecto original */
+    object-fit: contain; /* Esto ajustará la imagen para que quepa en el contenedor sin estirarla ni deformarla */
+    margin: 10px;
+    transition: transform 0.3s;
+  }
+
+
+  .section-sinergias-logos-logo:hover{
+    transform: scale(1.2);
+  }
+
