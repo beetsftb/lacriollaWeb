@@ -261,6 +261,7 @@ header{
     background-color: #90ce67;
 }
 
+
 .green-background p,.brown-background p, .violet-background p,.blulight-background p{
     font-family: "Plus Jakarta Sans";
     color:white;
@@ -269,8 +270,6 @@ header{
     font-size: 35px;
     text-align: start;
     width: 70%;
-
-
 }
 
 .brown-background{
@@ -366,6 +365,7 @@ header{
     margin-bottom: 20px;
     margin-left: 20px;
     line-height: 40px;
+ 
  
 }
 
@@ -597,6 +597,7 @@ header{
     font-weight: bolder;
     width: 250px;
     font-size: 15px;
+    margin-bottom: 50px;
   }
 
   .section-redes-sociales-right-half{
