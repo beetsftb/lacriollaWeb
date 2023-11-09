@@ -637,9 +637,14 @@ header{
     color:white;
     background-color: #4d4d4d;
     border-radius: 10px;
-    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
     font-size: 15px;
     font-family: "Plus Jakarta Sans";
+    font-weight: bold
+    
 }
 
 .section-contacto-info{
@@ -673,4 +678,37 @@ header{
 .section-contacto-contact-social-icons i {
     font-size: 20px; /* Tamaño del ícono */
     color: white;
+}
+
+/*Footer*/
+footer{
+    background-color: #4d4d4d;
+    color:#fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.footer-columna{
+    flex: 1;
+    margin-right: 20px;
+}
+
+
+.footer-columna h2{
+    margin-left: 40px;
+}
+
+
+.footer-columna img {
+    max-width: 100%;
+    height: auto;
+    padding-top: 90px;
+}
+
+
+.footer-columna ul{
+    list-style: none;
+   
 }
