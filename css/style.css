@@ -558,3 +558,61 @@ header{
     font-size: 60px;
 
   }
+
+  .section-redes-sociales{
+    display: flex;
+    width: 100%;
+    height: 300px;
+  }
+
+  .section-redes-sociales-left-half{
+    width: 50%;
+    background: linear-gradient(to bottom, #e2a869, #fcdc94);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px 0 0 10px ;
+    margin-left: 15px;
+  }
+
+  .section-redes-sociales-left-half p{
+    margin-top: 50px;
+    font-size: 50px;
+    color:white;
+  }
+
+  .section-redes-sociales-left-half-buttons{
+    margin-top: 20px;
+  }
+
+  .section-redes-sociales-left-half-buttons button{
+    margin: 10px;
+    padding: 10px 20px;
+    font-family: "Plus Jakarta Sans";
+    border-radius: 10px;
+    border: none;
+    color:#39b54a;
+    font-weight: bolder;
+    width: 250px;
+    font-size: 15px;
+  }
+
+  .section-redes-sociales-right-half{
+    width: 50%;
+    background: url('../img/fondo_redes_sociales.png'); /* Reemplaza con la URL de tu imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-radius: 0 10px 10px 0;
+    margin-right: 15px;
+  }
+
+  .instagram-icon {
+    position: absolute;
+    top: 100px;
+    right: 280px;
+    color: white;
+    transform: scale(5);
+}
