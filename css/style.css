@@ -616,3 +616,61 @@ header{
     color: white;
     transform: scale(5);
 }
+
+
+/*SECCION DATOS DE CONTACTO*/
+.section-contacto{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section-contacto-column{
+    flex: 1;
+    padding: 20px;
+ 
+}
+
+.section-contacto-contact-button{
+    border: none;
+    color:white;
+    background-color: #4d4d4d;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 15px;
+    font-family: "Plus Jakarta Sans";
+}
+
+.section-contacto-info{
+    margin-left: 20px;
+    font-weight: bolder;
+    color:#4d4d4d;
+    font-size: 15px;
+}
+
+.section-contacto-contact-social-icons{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-contacto-contact-social-icons-social-icon{
+    background: #4d4d4d;
+    width: 30px; /* Ajusta el ancho del círculo según tus necesidades */
+    height: 30px; /* Ajusta la altura del círculo según tus necesidades */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px; /* Espacio entre los círculos */
+
+}
+
+
+
+.section-contacto-contact-social-icons i {
+    font-size: 20px; /* Tamaño del ícono */
+    color: white;
+}
