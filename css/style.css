@@ -27,6 +27,11 @@ header{
     width: 250px;
 }
 
+header{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
 
 .header-links {
     display: flex;
@@ -105,6 +110,7 @@ header{
 .menu .prensa-contacto{
     display: inline;
     margin-right: 2px;
+    margin-top: 0;
 }
 
 /*Estilos para Responsive*/
@@ -192,14 +198,13 @@ header{
 /*Segunda imagen*/
 
 .background-image{
-    width: 95%;
+    width: 100%;
     background-image: url('../img/foto_02.jpg');
     background-size: cover;
     background-position: center;
     height: 50vh;
     position: relative;
-    margin-left: 2.5%;
-    margin-right: 2.5%;
+   
 }
 
 .overlay{
@@ -493,7 +498,6 @@ header{
     background: #f2f2f2;
     display: flex;
     align-items: center;
-    padding-top: 5px;
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
@@ -501,13 +505,14 @@ header{
     border-radius: 10px;  
     margin-left: 2.5%;
     margin-right: 2.5%;
+    height: 100px;
 
 }
 
 .section-nuestros-numeros .section-nuestros-numeros-header .section-nuestros-numeros-logo{
-    width: 90px;
-    height: 95px;
-    margin-right: 100px;
+    width: 80px;
+    height: 85px;
+    margin-right: 150px;
     margin-left: 100px;
 }
 
@@ -515,14 +520,17 @@ header{
     text-align: center;
     color:#90ce67;
     font-weight: lighter;
-    font-size: 50px;
+    font-size: 40px;
 }
 
 .content-column{
     display: grid;
-    grid-template-columns: repeat(4, 1fr); /* Divide en 4 columnas con igual ancho */
+    grid-template-columns: repeat(3, 1fr); /* Divide en 4 columnas con igual ancho */
     gap: 20px; /* Espacio entre columnas */
     padding: 20px;
+    width: 90%;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
 
 }
 
@@ -530,7 +538,6 @@ header{
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-items: flex-start;
 }
 
 .cell{
@@ -561,7 +568,6 @@ header{
   .section-sinergias{
     background: #f2f2f2;
     border: 1px solid #ccc;
-    padding: 20px;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 
@@ -605,7 +611,7 @@ header{
   .section-donde-estamos .section-donde-estamos-header h1{
     color:#90ce67;
     font-weight: lighter;
-    font-size: 60px;
+    font-size: 30px;
 
   }
 
@@ -616,7 +622,7 @@ header{
   }
 
   .section-redes-sociales-left-half{
-    width: 50%;
+    width: 30%;
     background: linear-gradient(to bottom, #e2a869, #fcdc94);
     text-align: center;
     display: flex;
@@ -624,12 +630,12 @@ header{
     justify-content: center;
     align-items: center;
     border-radius: 10px 0 0 10px ;
-    margin-left: 15px;
+    margin-left: 18%;
   }
 
   .section-redes-sociales-left-half p{
     margin-top: 50px;
-    font-size: 50px;
+    font-size: 30px;
     color:white;
   }
 
@@ -651,20 +657,19 @@ header{
   }
 
   .section-redes-sociales-right-half{
-    width: 50%;
+    width: 34%;
     background: url('../img/fondo_redes_sociales.png'); /* Reemplaza con la URL de tu imagen de fondo */
     background-size: cover;
-    background-position: center;
     position: relative;
     border-radius: 0 10px 10px 0;
     margin-right: 15px;
   }
 
   .instagram-icon {
-    position: absolute;
+  /* position: absolute;
     top: 100px;
-    right: 280px;
-    color: white;
+    right: 280px;*/
+    color: white!important;
     transform: scale(5);
 }
 
@@ -675,6 +680,9 @@ header{
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    width: 75%;
+    margin-left: 17%;
+    margin-right: 18%;
 }
 
 .section-contacto-column{
@@ -700,9 +708,9 @@ header{
 
 .section-contacto-info{
     margin-left: 20px;
-    font-weight: bolder;
-    color:#4d4d4d;
+    color:white;
     font-size: 15px;
+    
 }
 
 .section-contacto-contact-social-icons{
@@ -753,9 +761,9 @@ footer{
 
 
 .footer-columna img {
-    max-width: 100%;
     height: auto;
-    padding-top: 90px;
+    margin-left: 140px;
+
 }
 
 
