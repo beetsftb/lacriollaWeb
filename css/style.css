@@ -488,7 +488,7 @@ header{
 }
 
 .section-nuestros-numeros .section-nuestros-numeros-header{
-    width: 100%;
+    width:90%;
     border:2px solid #ffc216;
     background: #f2f2f2;
     display: flex;
@@ -499,6 +499,9 @@ header{
     margin-top: 20px;
     margin-bottom:40px;
     border-radius: 10px;  
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+
 }
 
 .section-nuestros-numeros .section-nuestros-numeros-header .section-nuestros-numeros-logo{
