@@ -64,7 +64,7 @@ function showSlideSecond(n) {
   slideIndex += n;
   if (slideIndex < 0) {
     slideIndex = slides.length - 1;
-  } else if (slideIndex >= slides.length) {
+  } else if (slideIndex >= slides1.length) {
     slideIndex = 0;
   }
   slides1[slideIndex].style.display = "block";

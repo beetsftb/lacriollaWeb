@@ -16,6 +16,10 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 10px 20px;
+    position: fixed;
+    width: 100%;
+    top:0;
+    z-index: 1000;
 }
 
 
@@ -62,6 +66,7 @@ header{
     color:#333;
     text-align: right;
     font-size: 17px;
+    margin-right: 2%;
 }
 
 .menu hr{
@@ -87,7 +92,61 @@ header{
 }
 
 
+/*Dropdown de lineas de trabajo*/
 
+.dropdown-lineas-trabajo{
+    display: inline-block;
+    position: relative;
+}
+
+.dropdown-content-lineas-trabajo{
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    z-index: 1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    top:100%;
+    left:0;
+
+}
+
+.dropdown-content-lineas-trabajo a{
+    color:black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+
+}
+
+.dropdown-content-lineas-trabajo a:hover{
+    background-color: #f1f1f1;
+}
+
+
+.dropdown-lineas-trabajo:hover .dropdown-content-lineas-trabajo {
+    display: block;
+}
+
+.dropbtn-lineas-trabajo{
+    font-size: 16px;  
+    border: none;
+    outline: none;
+    color: white;
+    background-color: inherit;
+    cursor: pointer;
+    position: relative;
+}
+
+.dropbtn-lineas-trabajo a:hover{
+    background-color: #ddd;
+}
+
+.dropbtn-lineas-trabajo span {
+    font-size: 12px;
+    margin-left: 5px;
+}
+
+/*##########*/
 
 
 .green-line{
@@ -127,6 +186,10 @@ header{
     }
 
 
+}
+
+main{
+    padding-top: 70px;
 }
 
 
@@ -295,6 +358,16 @@ header{
 
 }
 
+.servicios-text {
+    position: absolute;
+    top: 10px; /* Ajusta según sea necesario */
+    left: 10px; /* Ajusta según sea necesario */
+    color: black;
+    font-size: 18px; /* Tamaño del texto */
+    font-weight: bold; /* Puedes ajustar según sea necesario */
+    margin-left: 11%;
+}
+
 .white-background{
     background-color: white;
     height: 250px;
@@ -319,10 +392,12 @@ header{
 
 .brown-background{
     background-color: #e2a869;
+    background: linear-gradient(to right, #e2a869, #fcdc94, #e2a869);
 }
 
 .violet-background{
     background-color: #7d41ae;
+    background: linear-gradient(to right, #47007a, #abacec, #47007a);
 }
 
 .blulight-background{
@@ -772,4 +847,277 @@ footer{
    
 }
 
+.footer-columna a{
+    text-decoration: none;
+    color:white;
+}
 
+
+
+/*PAGINAS INTERNAS*/
+
+.header-pagina-interna{
+    display: flex;
+    flex-direction: column;
+}
+
+.header-pagina-interna-izquierda .header-pagina-interna-derecha{
+    width: 50%;
+}
+
+.header-pagina-interna-izquierda{
+        flex: 1;
+        display: flex;
+        align-items: center;
+        margin-left: 7%;
+}
+
+.header-pagina-interna-derecha {
+    position: relative;
+    left: -10px; /* Ajusta según sea necesario para la superposición */
+}
+
+.header-pagina-interna-izquierda img,
+.header-pagina-interna-derecha img {
+    width: 40%;
+    height: auto;
+}
+
+.header-pagina-interna-texto-header {
+    background-color: #e2a869; /* Color de fondo del texto */
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-right: 55px;
+    padding-left: 55px;
+    text-align:center;
+}
+
+.header-pagina-interna {
+    margin-top: 15%; /* Ajusta según la altura de tu barra de navegación */
+    padding-top: 20px; /* Puedes ajustar según sea necesario para separar el contenido del encabezado */
+    width: 100%;
+}
+
+.overflow-interna{
+    position: absolute;
+    top: 20%;
+    left:55%;
+    transform: translate(10%,-50%);
+    padding-bottom: 50px;
+
+}
+
+
+
+.centro-pagina-interna{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.texto-centro-pagina-interna{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+
+.imagen-centro-pagina-interna img{
+    width: 300px;
+    height: auto;
+}
+
+.texto-centro-pagina-interna h2{
+    color:#f98f00;
+}
+
+
+.texto-centro-pagina-interna ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.texto-centro-pagina-interna strong{
+    color:#f98f00;
+    font-weight: lighter;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.texto-centro-pagina-interna ul li {
+    margin-bottom: 10px;
+    padding-left: 15px; 
+    position: relative;
+    margin-top: 15px;
+}
+
+.texto-centro-pagina-interna li::before {
+    content: '\2713';
+    display: block;
+    width: 45px; 
+    height: 30px;
+    color:#4ACF50;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.pagina-interna hr{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 8px; /* Altura de la línea */
+    background: linear-gradient(to right, #e2a869, #fcdc94); /* Gradiente de color de rojo a verde */
+    margin: 20px 0; /* Espaciado opcional alrededor de la línea */
+
+}
+.texto-pagina-interna-segundo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.texto-pagina-interna-segundo h2 {
+    color: #f98f00;
+}
+
+.texto-pagina-interna-segundo p {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.texto-pagina-interna-segundo ul {
+    flex: 1 0 100%; /* Para que la lista ocupe todo el ancho en dispositivos pequeños */
+    margin-top: 0; /* Elimina el margen superior de la lista */
+}
+
+.texto-pagina-interna-segundo li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    position: relative;
+    margin-top: 15px;
+    list-style: none;
+}
+
+.texto-pagina-interna-segundo li::before {
+    content: '\2713';
+    display: block;
+    width: 45px;
+    height: 30px;
+    color: #4ACF50;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.texto-pagina-interna-segundo img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-top: 20px; /* Espacio entre la imagen y el contenido */
+    border-radius: 10px; /* Radio de las esquinas de la imagen */
+    box-shadow: 12px 12px 8px rgba(226, 168, 106, 0.3);
+}
+
+.texto-final-pagina-interna h2{
+    color:#e2a869;
+    font-weight: lighter;
+    text-align: center;
+    margin-right: 2.5%;
+    margin-left: 2.5%;
+}
+
+.footer-pagina-interna{
+    background-color: white;
+    margin-left: 5%;
+    margin-top: 8%;
+}
+
+.footer-pagina-interna img{
+    width: 250px;
+}
+
+.header-pagina-interna-texto-header-agricultura{
+    background-color: #90ce67;
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-right: 55px;
+    padding-left: 55px;
+    text-align:center;
+}
+
+.texto-centro-pagina-interna-agricultura{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.texto-centro-pagina-interna-agricultura h2{
+    color:#90ce67;
+}
+
+.texto-centro-pagina-interna-agricultura ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.texto-centro-pagina-interna-agricultura strong{
+    color:#51ce5b;
+    font-weight: lighter;
+    display: block;
+    margin-top: 15px;
+    margin-left: 10px;
+
+}
+
+.texto-centro-pagina-interna-agricultura ul li {
+    margin-bottom: 10px;
+    padding-left: 15px; 
+    position: relative;
+    margin-top: 15px;
+}
+
+.texto-centro-pagina-interna li::before {
+    content: '\2713';
+    display: block;
+    width: 45px; 
+    height: 30px;
+    color:#4ACF50;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+.pagina-interna-agricultura hr{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 8px; /* Altura de la línea */
+    background: linear-gradient(to right, #51ce5b, #90ce67); /* Gradiente de color de rojo a verde */
+    margin: 20px 0; /* Espaciado opcional alrededor de la línea */
+
+}
+
+
+.h2_agricultura{
+    color:#90ce67!important;
+
+}

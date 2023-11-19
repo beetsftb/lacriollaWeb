@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
     />
-    <link rel="icon" href="./img/logo_mini.ico" type="image/x-icon" />
+    <link rel="icon" href="./img/logo_mini.png" type="image/x-icon" />
     <title>La Criolla</title>
   </head>
   <body>
@@ -37,8 +37,14 @@
           <a href="#"><i class="fab fa-facebook"></i></a>
         </li>
         <hr />
-        <li><a href="#">Nosotros</a></li>
-        <li><a href="#">Líneas de Trabajo</a></li>
+        <li><a href="./index.html">Nosotros</a></li>
+        <li class="dropdown-lineas-trabajo">
+          <a href="#" class="dropbtn-lineas-trabajo">Líneas de Trabajo<span>&#9660;</span></a>
+          <div class="dropdown-content-lineas-trabajo">
+              <a href="./agricultura.html">Agricultura</a>
+              <a href="./ganaderia.html">Ganadería</a>
+          </div>
+      </li>
         <li><a href="#">Hotelería</a></li>
         <li><a href="#">Gestión Ambiental</a></li>
         <li><a href="#">Sinergias</a></li>
@@ -84,7 +90,7 @@
         <img src="./img/logo1.png" class="small-image" />
         <p class="text-image-text-container">
           <strong>Somos </strong>
-          <span> una empresa familiar con una pasión ganadera</span>
+          <span> una empresa familiar con una fuerte pasión ganadera</span>
         </p>
       </section>
       <section class="texto-centralizado">
@@ -107,52 +113,9 @@
       <div class="carousel-container">
         <div class="carousel-slide">
           <div class="half white-background">
-            <img
-              src="./img/area_agricultura.png"
-              alt="Area Agricultura"
-              class="half-width"
-            />
-            <img
-              src="./img/area_agricultura1.png"
-              alt=""
-              class="half-width overflow"
-            />
-          </div>
-          <div class="half green-background">
-            <div class="content">
-              <p>
-                En <strong>Agropecuaria La Criolla</strong> ofrecemos un
-                servicio de engorde de hacienda acorde a tus objetivos
-              </p>
-              <a class="ver-mas-btn">VER MÁS</a>
+            <div class="servicios-text">
+              <p>SERVICIOS</p>
             </div>
-          </div>
-        </div>
-        <div class="carousel-slide">
-          <div class="half white-background">
-            <img
-              src="./img/area_ganaderia.png"
-              alt="Area Ganadería"
-              class="half-width"
-            />
-            <img
-              src="./img/area_ganaderia1.png"
-              alt=""
-              class="half-width overflow"
-            />
-          </div>
-          <div class="half brown-background">
-            <div class="content">
-              <p>
-                En <strong>Agropecuaria La Criolla</strong> ofrecemos un
-                servicio de engorde de hacienda acorde a tus objetivos
-              </p>
-              <a class="ver-mas-btn">VER MÁS</a>
-            </div>
-          </div>
-        </div>
-        <div class="carousel-slide">
-          <div class="half white-background">
             <img
               src="./img/area_hoteleria.png"
               alt="Area Hoteleria"
@@ -176,6 +139,59 @@
         </div>
         <div class="carousel-slide">
           <div class="half white-background">
+            <div class="servicios-text">
+              <p>LÍNEAS DE TRABAJO</p>
+            </div>
+            <img
+              src="./img/area_agricultura.png"
+              alt="Area Agricultura"
+              class="half-width"
+            />
+            <img
+              src="./img/area_agricultura1.png"
+              alt=""
+              class="half-width overflow"
+            />
+          </div>
+          <div class="half green-background">
+            <div class="content">
+              <p>
+                En <strong>Agropecuaria La Criolla</strong> ofrecemos un
+                servicio de engorde de hacienda acorde a tus objetivos
+              </p>
+              <a href="./agricultura.html" class="ver-mas-btn">VER MÁS</a>
+            </div>
+          </div>
+        </div>
+        <div class="carousel-slide">
+          <div class="half white-background">
+            <div class="servicios-text">
+              <p>LÍNEAS DE TRABAJO</p>
+            </div>
+            <img
+              src="./img/area_ganaderia.png"
+              alt="Area Ganadería"
+              class="half-width"
+            />
+            <img
+              src="./img/area_ganaderia1.png"
+              alt=""
+              class="half-width overflow"
+            />
+          </div>
+          <div class="half brown-background">
+            <div class="content">
+              <p>
+                En <strong>Agropecuaria La Criolla</strong> ofrecemos un
+                servicio de engorde de hacienda acorde a tus objetivos
+              </p>
+              <a href="./ganaderia.html" class="ver-mas-btn">VER MÁS</a>
+            </div>
+          </div>
+        </div>
+        
+      <!--  <div class="carousel-slide">
+          <div class="half white-background">
             <img
               src="./img/gestion_ambiental.png"
               alt="Area Gestión Ambiental"
@@ -196,7 +212,7 @@
               <a class="ver-mas-btn">VER MÁS</a>
             </div>
           </div>
-        </div>
+        </div>-->
         <div class="carousel-controls">
           <button class="prev" onclick="changeSlide(-1)">
             <i class="fa fa-chevron-left"></i>
@@ -255,7 +271,7 @@
             <div class="cell">
               <div class="number">3.000 Has</div>
               <hr class="line" />
-              <p>campo alquilado</p>
+              <p>de campo alquilado</p>
             </div>
           </div>
         </div>
@@ -406,7 +422,7 @@
         <ul>
           <li>Nosotros</li>
           <li>Agricultura</li>
-          <li>Ganadería</li>
+          <li><a href="./ganaderia.html">Ganadería</a></li>
           <li>Servicio de hotelería a terceros</li>
           <li>Gestión Ambiental</li>
           <li>Sinergias</li>
