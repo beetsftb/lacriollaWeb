@@ -1119,5 +1119,37 @@ footer{
 
 .h2_agricultura{
     color:#90ce67!important;
+    margin-right: 55px;
 
+}
+
+.texto-pagina-interna-segundo-agricultura{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.texto-pagina-interna-segundo-agricultura {
+    margin-top: 15px;
+}
+
+.texto-pagina-interna-segundo-agricultura img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-top: 20px; /* Espacio entre la imagen y el contenido */
+    border-radius: 10px; /* Radio de las esquinas de la imagen */
+    box-shadow: 12px 12px 8px rgba(226, 168, 106, 0.3);
+}
+
+
+.texto-pagina-interna-segundo-texto{
+    flex: 1; /* El texto ocupará todo el espacio disponible */
+    margin-right: 20px; /* Espacio entre el texto y la imagen */
 }
