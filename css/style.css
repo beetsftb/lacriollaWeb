@@ -897,7 +897,7 @@ footer{
 }
 
 .header-pagina-interna {
-    margin-top: 15%; /* Ajusta según la altura de tu barra de navegación */
+    margin-top: 8%; /* Ajusta según la altura de tu barra de navegación */
     padding-top: 20px; /* Puedes ajustar según sea necesario para separar el contenido del encabezado */
     width: 100%;
 }
@@ -1152,4 +1152,97 @@ footer{
 .texto-pagina-interna-segundo-texto{
     flex: 1; /* El texto ocupará todo el espacio disponible */
     margin-right: 20px; /* Espacio entre el texto y la imagen */
+}
+
+.header-pagina-interna-texto-header-hoteleria{
+    background-color: #7d41ae;
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-right: 55px;
+    padding-left: 55px;
+    text-align:center;
+
+}
+
+.texto-centro-pagina-interna-hoteleria{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.texto-centro-pagina-interna-hoteleria h2{
+    color:#47007a;
+}
+
+
+.texto-centro-pagina-interna-hoteleria ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.texto-centro-pagina-interna-hoteleria ul li {
+    margin-bottom: 10px;
+    padding-left: 15px; 
+    position: relative;
+    margin-top: 15px;
+}
+
+.texto-centro-pagina-interna-hoteleria li::before {
+    content: '\2713';
+    display: block;
+    width: 45px; 
+    height: 30px;
+    color:#4ACF50;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+
+.texto-pagina-interna-segundo-hoteleria{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+.texto-pagina-interna-segundo-hoteleria {
+    margin-top: 15px;
+}
+
+.texto-pagina-interna-segundo-hoteleria img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-top: 20px; /* Espacio entre la imagen y el contenido */
+    border-radius: 10px; /* Radio de las esquinas de la imagen */
+    box-shadow: 12px 12px 8px rgba(71, 0, 122, 0.3);
+}
+
+
+.pagina-interna-hoteleria hr{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 8px; /* Altura de la línea */
+    background: linear-gradient(to right, #47007a, #abacec); /* Gradiente de color de rojo a verde */
+    margin: 20px 0; /* Espaciado opcional alrededor de la línea */
+
+}
+
+
+.h2_hoteleria{
+    color:#47007a!important;
+    margin-right: 55px;
+
 }
