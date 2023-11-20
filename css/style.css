@@ -660,7 +660,7 @@ main{
   }
 
   .section-sinergias-logos .section-sinergias-logos-logo{
-    width: 15%;
+    width: 13%;
     height: auto; /* Permite que la altura se ajuste automáticamente para mantener la relación de aspecto original */
     object-fit: contain; /* Esto ajustará la imagen para que quepa en el contenedor sin estirarla ni deformarla */
     margin: 10px;
@@ -901,6 +901,8 @@ footer{
     padding-top: 20px; /* Puedes ajustar según sea necesario para separar el contenido del encabezado */
     width: 100%;
 }
+
+
 
 .overflow-interna{
     position: absolute;
@@ -1245,4 +1247,137 @@ footer{
     color:#47007a!important;
     margin-right: 55px;
 
+}
+
+
+
+/*Nosotros*/
+
+.overflow-interna-nosotros{
+    position: absolute;
+    top: 20%;
+    left:55%;
+    transform: translate(-10%,-50%);
+    padding-bottom: 50px;
+}
+
+.header-pagina-interna h2{
+    text-align: center;
+    color:#482223;
+    margin-bottom: 50px;
+}
+
+.header-pagina-interna-texto-header-nosotros{
+    background-color: #482223;
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 22px;
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-right: 55px;
+    padding-left: 55px;
+    text-align:center;
+
+}
+
+.texto-centro-pagina-interna-nosotros{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    
+}
+
+
+.texto-centro-pagina-interna-nosotros h2{
+    color:#482223;
+}
+
+
+.texto-centro-pagina-interna-nosotros ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+.texto-centro-pagina-interna-nosotros ul li {
+    margin-bottom: 10px;
+    padding-left: 15px; 
+    position: relative;
+    margin-top: 15px;
+}
+
+.texto-centro-pagina-interna-nosotros li::before {
+    content: '\2713';
+    display: block;
+    width: 45px; 
+    height: 30px;
+    color:#4ACF50;
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+
+
+
+.accordion-section {
+    margin-bottom: 20px;
+}
+
+.accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-button {
+    background-color: #603913;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+}
+
+.accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+
+.nosotros-desplegables{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.nosotros-desplegables .accordion-section{
+    font-family: "Plus Jakarta Sans";
+    color:#482223;
+}
+
+.accordion-section{
+    background-color: #f7f4ec;
+}
+
+.accordion-header h2{
+    margin-left: 20px;
+}
+
+.accordion-content p{
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.accordion-content ul{
+    list-style: none;
+}
+
+.accordion-content li{
+    margin-bottom: 10px;
 }
