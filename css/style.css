@@ -1381,3 +1381,74 @@ footer{
 .accordion-content li{
     margin-bottom: 10px;
 }
+
+
+
+/*Gestion Ambiental*/
+
+.header-pagina-interna-texto-header-gest-ambiental{
+    background-color: #1ad8bc;
+    color: #fff; /* Color del texto */
+    padding: 20px;
+    box-sizing: border-box;
+    font-size: 30px;
+    margin-top: 70px;
+    padding-top: 45px;
+    padding-right: 55px;
+    padding-left: 55px;
+    text-align:center;
+
+}
+
+.texto-centro-pagina-interna-gest-ambiental{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.texto-centro-pagina-interna-gest-ambiental h2{
+    color:#1ad8bc;
+
+}
+
+
+.h2_gest_ambiental{
+
+    color:#1ad8bc!important;
+    margin-right: 55px;
+}
+
+.pagina-interna-gest-ambiental hr{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 8px; /* Altura de la línea */
+    background: linear-gradient(to right, #1ad8bc, #1ad8ff); /* Gradiente de color de rojo a verde */
+    margin: 20px 0; /* Espaciado opcional alrededor de la línea */
+
+}
+
+.texto-pagina-interna-segundo-gest-ambiental{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+    margin-bottom: 40px;
+}
+
+
+.texto-pagina-interna-segundo-gest-ambiental{
+    margin-top: 15px;
+}
+
+.texto-pagina-interna-segundo-gest-ambiental img {
+    max-width: 100%;
+    width: 300px;
+    height: auto;
+    margin-top: 20px; /* Espacio entre la imagen y el contenido */
+    border-radius: 10px; /* Radio de las esquinas de la imagen */
+    box-shadow: 12px 12px 8px rgba(26, 216, 255, 0.3);
+}
+
