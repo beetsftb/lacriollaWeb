@@ -1452,3 +1452,122 @@ footer{
     box-shadow: 12px 12px 8px rgba(26, 216, 255, 0.3);
 }
 
+
+
+/*Cultura La Criolla*/
+
+.header-pagina-interna-texto-header-cultura{
+
+        background-color: #f98f00;
+        color: #fff; /* Color del texto */
+        padding: 5px;
+        box-sizing: border-box;
+        font-size: 30px;
+        margin-top: 70px;
+        padding-right: 55px;
+        padding-left: 55px;
+        text-align:center;
+
+}
+
+
+.header-pagina-interna-texto-header-cultura h2{
+
+    color: #fff; /* Color del texto */
+
+}
+
+
+.texto-centro-pagina-interna-cultura{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+.texto-centro-pagina-interna-cultura p{
+    font-size: 20px;
+    color:#f98f00;
+}
+
+.cultura-desplegables{
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
+
+
+.accordion-section-cultura {
+    margin-bottom: 20px;
+}
+
+.accordion-header-cultura {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.accordion-button-cultura {
+    background-color: #f98f00;
+    color: #fff;
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border: none;
+    text-align: left;
+}
+
+.accordion-content-cultura {
+    display: none;
+    padding: 10px;
+}
+
+
+.cultura-desplegables .accordion-section-cultura{
+    font-family: "Plus Jakarta Sans";
+    color:#f98f00;
+}
+
+.accordion-section-cultura{
+    background-color: #f7f4ec;
+}
+
+.accordion-header-cultura h2{
+    margin-left: 20px;
+}
+
+.accordion-content-cultura p{
+    text-align: justify;
+    width: 90%;
+    margin-left: 5%;
+}
+
+.accordion-content-cultura ul{
+    list-style: none;
+}
+
+.accordion-content-cultura li{
+    margin-bottom: 10px;
+}
+
+.directorio_areas{
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.directorio_areas h2{
+    color:#f98f00;
+}
+
+.directorio_areas ul {
+    list-style-type:circle;
+}
+
+.directorio_areas strong{
+    color:#f98f00;
+    text-decoration: underline;
+}
