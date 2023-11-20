@@ -262,7 +262,7 @@ main{
 
 .background-image{
     width: 100%;
-    background-image: url('../img/foto_02.jpg');
+    background-image: url('../img/foto_02.png');
     background-size: cover;
     background-position: center;
     height: 50vh;
