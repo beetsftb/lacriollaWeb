@@ -1571,3 +1571,58 @@ footer{
     color:#f98f00;
     text-decoration: underline;
 }
+
+
+
+
+
+/*Pagina PRENSA*/
+
+.pagina-interna-prensa-img{
+    background-image: url('../img/prensa.png'); /* Reemplaza con la ruta de tu imagen de diarios */
+    background-size: cover;
+    height: 200px;
+    color: #4d4d4d;
+    padding-left: 20px;
+    text-align: left;
+    margin-top: 8%; /* Ajusta según la altura de tu barra de navegación */
+    padding-top: 20px; /* Puedes ajustar según sea necesario para separar el contenido del encabezado */
+    width: 100%;
+}
+
+.pagina-interna-prensa-img h1{
+    font-size: 50px;
+    margin-left: 40px;
+    font-family: "Plus Jakarta Sans";
+}
+
+
+.grid-container-prensa{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Ajusta el tamaño mínimo y máximo de las columnas */
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+.grid-item-prensa{
+    text-align: left;
+    padding: 10px;
+}
+
+.grid-item-prensa a{
+    text-decoration: none;
+    color:#333;
+}
+
+.grid-item-prensa img {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover; /* O ajusta según tus preferencias, como contain */
+}
+
+
+.grid-item-prensa iframe {
+    max-width: 100%;
+    height: 150px;
+    object-fit: cover; /* O ajusta según tus preferencias, como contain */
+}
