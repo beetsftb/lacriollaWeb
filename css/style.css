@@ -920,6 +920,7 @@ footer{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
+    padding-left: 50px;
 }
 
 .texto-centro-pagina-interna{
@@ -1179,6 +1180,8 @@ footer{
 
 .texto-centro-pagina-interna-hoteleria h2{
     color:#47007a;
+    text-align: left;
+    font-weight: bold;
 }
 
 
@@ -1224,13 +1227,14 @@ footer{
     margin-top: 15px;
 }
 
-.texto-pagina-interna-segundo-hoteleria img {
+.imagen-centro-pagina-interna img {
     max-width: 100%;
     width: 300px;
     height: auto;
     margin-top: 20px; /* Espacio entre la imagen y el contenido */
     border-radius: 10px; /* Radio de las esquinas de la imagen */
     box-shadow: 12px 12px 8px rgba(71, 0, 122, 0.3);
+    margin-right: 30px;
 }
 
 
@@ -1240,6 +1244,12 @@ footer{
     background: linear-gradient(to right, #47007a, #abacec); /* Gradiente de color de rojo a verde */
     margin: 20px 0; /* Espaciado opcional alrededor de la línea */
 
+}
+
+.nuestro-feedlot hr{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 25px; 
+    background: #47007a;
 }
 
 
@@ -1625,4 +1635,54 @@ footer{
     max-width: 100%;
     height: 150px;
     object-fit: cover; /* O ajusta según tus preferencias, como contain */
+}
+
+
+.nuestro-feedlot {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 150px;
+}
+
+.nuestro-feedlot-imagen img{
+    width: 300px;
+    height: auto;
+}
+
+.nuestro-feedlot-imagen-texto{
+    flex: 1;
+    margin-left: 50px;
+    padding-right: 50px;
+    text-align: justify;
+}
+
+
+
+.nuestro-feedlot-imagen-texto h2{
+    color:#47007a;
+    text-align: right;
+    font-weight: bold;
+}
+
+
+.nuestro-feedlot-imagen-texto ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+
+.nuestro-feedlot-imagen-texto ul li {
+    margin-bottom: 10px;
+    padding-left: 15px; 
+    position: relative;
+    margin-top: 15px;
+}
+
+#segunda_linea{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 20px; /* Altura de la línea */
+    background:#47007a; /* Gradiente de color de rojo a verde */
 }
