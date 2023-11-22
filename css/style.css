@@ -512,6 +512,7 @@ main{
 
 
 .gestAmbientalContenedor-header{
+    align-items: center;
     width: 100%;
 
 }
@@ -519,6 +520,8 @@ main{
 .gestAmbientalContenedor h1{
     font-size: 40px;
     font-weight:lighter;
+    margin-left: 200px;
+    margin-bottom: 0;
 
 }
 
@@ -526,11 +529,12 @@ main{
     font-size: 25px;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 0;
 }
 
 .card{
     width: calc(30% - 80px);
-    padding-top: 20px;
+    padding-top: 4%;
     padding-bottom: 20px;
     background-color: #fff;
     color:#333;
@@ -1727,4 +1731,21 @@ footer{
 .nuestra-cria-imagen-texto p{
     padding-left: 30px;
     text-align: justify;
+}
+
+
+
+.gestAmbientalContenedor-content-header {
+    display: flex;
+    align-items: center;
+}
+
+.gestAmbientalContenedor-content-header img{
+   margin-right: 15px;
+}
+
+.logo-img{
+    max-width: 200px; /* Ajusta el tamaño máximo según sea necesario */
+    margin-left: 15%; /* Ajusta el margen según sea necesario */
+    padding-bottom: 15px;
 }
