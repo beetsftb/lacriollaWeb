@@ -1694,6 +1694,37 @@ footer{
     margin-left: 0;
 }
 
-.imagen-centro-pagina-interna-agricultura{
+#segunda_linea_ganaderia{
+    border: 0; /* Elimina el borde predeterminado de la línea */
+    height: 20px; /* Altura de la línea */
+    background:#f98f00; /* Gradiente de color de rojo a verde */
+}
 
+.nuestra-cria-imagen-texto{
+    flex: 1;
+    padding-right: 50px;
+    text-align: justify;
+
+}
+
+
+
+.nuestra-cria-imagen-texto h2{
+    color: #f98f00;
+    text-align: left;
+    font-weight: bold;
+}
+
+
+.nuestras-crias{
+    display: flex;
+
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 30px;
+}
+
+.nuestra-cria-imagen-texto p{
+    padding-left: 30px;
+    text-align: justify;
 }
