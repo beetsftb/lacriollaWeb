@@ -1123,6 +1123,7 @@ footer{
 .h2_agricultura{
     color:#90ce67!important;
     margin-right: 55px;
+    font-weight: bolder!important;
 
 }
 
@@ -1685,4 +1686,14 @@ footer{
     border: 0; /* Elimina el borde predeterminado de la línea */
     height: 20px; /* Altura de la línea */
     background:#47007a; /* Gradiente de color de rojo a verde */
+}
+
+#agricultura_strong_negrita{
+    font-weight: bold;
+    color:#000;
+    margin-left: 0;
+}
+
+.imagen-centro-pagina-interna-agricultura{
+
 }
