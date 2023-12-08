@@ -201,6 +201,7 @@ main{
     width: 100%;
     overflow: hidden;
 
+
 }
 
 
@@ -226,6 +227,7 @@ main{
     color:#fff;
     padding: 5px 10px;
     text-shadow: 2px 2px 4px #888;
+    text-align: left;
 }
 
 .text strong{
@@ -294,7 +296,8 @@ main{
     display: flex;
     align-items: center;
     height: 100px;
-    margin-top: 40px;
+    margin-top: 15%;
+    margin-bottom: 15%;
 }
 
 .small-image{
@@ -323,8 +326,9 @@ main{
 }
 
 .texto-centralizado{
-    margin-top: 80px;
+    margin-bottom: 15%;
     background-color: #f2f2f2;
+    font-size: 20px;
 }
 
 .texto-centralizado h1{
@@ -337,9 +341,9 @@ main{
 
 .two-column-text{
     column-count: 2;
-    column-gap: 30px;/*Espacio entre columnas*/
-    margin-right: 30px;
-    margin-left: 30px;
+    column-gap: 35px;/*Espacio entre columnas*/
+    margin-right: 40px;
+    margin-left: 40px;
     text-align: justify;
     padding-bottom: 50px;
     padding-top: 50px;
@@ -526,6 +530,7 @@ main{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    padding-top: 10%;
 
 }
 
@@ -588,6 +593,8 @@ main{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .section-nuestros-numeros .section-nuestros-numeros-header{
@@ -599,7 +606,7 @@ main{
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 20px;
-    margin-bottom:40px;
+    margin-bottom:10%;
     border-radius: 10px;  
     margin-left: 2.5%;
     margin-right: 2.5%;
@@ -664,10 +671,10 @@ main{
   /*Sección Sinergias*/
 
   .section-sinergias{
-    background: #f2f2f2;
     border: 1px solid #ccc;
     text-align: center;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    padding-top: 5%;
 
   }
 
@@ -683,16 +690,26 @@ main{
   }
 
   .section-sinergias-logos .section-sinergias-logos-logo{
-    width: 13%;
+    width: 10%;
     height: auto; /* Permite que la altura se ajuste automáticamente para mantener la relación de aspecto original */
     object-fit: contain; /* Esto ajustará la imagen para que quepa en el contenedor sin estirarla ni deformarla */
     margin: 10px;
     transition: transform 0.3s;
+    background-color: #ccc;
+    padding: 10px;
+    border-radius: 8px;
+    filter: grayscale(100%); /* Aplicamos escala de grises inicialmente */
   }
 
 
   .section-sinergias-logos-logo:hover{
     transform: scale(1.2);
+    filter: grayscale(0%);
+  }
+
+  .section-sinergias-logos-logo img {
+    width: 100%; /* Asegura que la imagen ocupe todo el espacio disponible en el contenedor */
+    height: auto; /* Ajusta automáticamente la altura para mantener la relación de aspecto original */
   }
 
   /*Seccion Donde estamos*/
