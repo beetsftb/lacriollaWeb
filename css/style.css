@@ -219,9 +219,9 @@ main{
 
 .text {
     position: absolute;
-    font-size: 93px;
+    font-size: 70px;
     top: 200px;
-    left:30%;
+    left:35%;
     transform: translateX(-50%);
     color:#fff;
     padding: 5px 10px;
@@ -331,6 +331,7 @@ main{
     text-align: center;
     font-size: 40px;
     padding-top: 80px;
+    margin: 40px 30px;
  
 }
 
@@ -340,14 +341,12 @@ main{
     margin-right: 30px;
     margin-left: 30px;
     text-align: justify;
+    padding-bottom: 50px;
+    padding-top: 50px;
 }
 
 
-.two-column-text p{
-    margin-right: 5%;
-    margin-left: 5%;
-    margin-bottom: 5%;
-}
+
 
 /*Segundo carrousel*/
 
@@ -956,8 +955,6 @@ footer{
     font-weight: lighter;
     display: block;
     margin-top: 15px;
-    margin-left: 10px;
-
 }
 
 .texto-centro-pagina-interna ul li {
@@ -1045,7 +1042,6 @@ footer{
     font-weight: lighter;
     text-align: center;
     margin-right: 2.5%;
-    margin-left: 2.5%;
 }
 
 .footer-pagina-interna{
@@ -1098,7 +1094,6 @@ footer{
 
 .texto-centro-pagina-interna-agricultura ul li {
     margin-bottom: 10px;
-    padding-left: 15px; 
     position: relative;
     margin-top: 15px;
 }
@@ -1265,6 +1260,20 @@ footer{
 }
 
 
+.nuestro-feedlot-imagen-texto li::before {
+    content: '\2713';
+    display: inline-block;
+    width: 170px; 
+    height: 30px;
+    color:#4ACF50;
+    position: absolute;
+    left: -5px;
+    top: 60%;
+    transform: translateY(-50%);
+}
+
+
+
 
 /*Nosotros*/
 
@@ -1285,15 +1294,13 @@ footer{
 .header-pagina-interna-texto-header-nosotros{
     background-color: #482223;
     color: #fff; /* Color del texto */
-    padding: 20px;
     box-sizing: border-box;
     font-size: 22px;
     margin-top: 70px;
     padding-top: 45px;
-    padding-right: 55px;
-    padding-left: 55px;
     text-align:center;
-
+    margin-left:50px;
+    margin-right: 50px;
 }
 
 .texto-centro-pagina-interna-nosotros{
@@ -1340,6 +1347,7 @@ footer{
 
 .accordion-section {
     margin-bottom: 20px;
+    margin-left: 50px;
 }
 
 .accordion-header {
@@ -1513,6 +1521,15 @@ footer{
 
 }
 
+.cultura-texto-encabezado{
+    width: 90%;
+    font-size: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+
+}
+
 
 
 .accordion-section-cultura {
@@ -1568,23 +1585,20 @@ footer{
     margin-bottom: 10px;
 }
 
-.directorio_areas{
-    width: 90%;
-    margin-right: 5%;
-    margin-left: 5%;
-}
 
 .directorio_areas h2{
-    color:#f98f00;
+    color:#482223;
+    margin-left: 100px;
 }
 
 .directorio_areas ul {
     list-style-type:circle;
+    margin-left: 100px;
 }
 
 .directorio_areas strong{
-    color:#f98f00;
-    text-decoration: underline;
+    color:#482223;
+
 }
 
 
@@ -1729,7 +1743,6 @@ footer{
 }
 
 .nuestra-cria-imagen-texto p{
-    padding-left: 30px;
     text-align: justify;
 }
 
