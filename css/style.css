@@ -320,13 +320,6 @@ main{
     font-size: 20px;
 }
 
-.texto-centralizado h1{
-    text-align: center;
-    font-size: 40px;
-    padding-top: 80px;
-    margin: 40px 30px;
- 
-}
 
 .two-column-text{
     column-count: 2;
@@ -1901,6 +1894,15 @@ footer{
   }
   
 
+  /*texto*/
+
+.two-column-text {
+    column-count: 1; /* Cambiar a una sola columna */
+    text-align: center;
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
 
 
 }
@@ -2019,6 +2021,23 @@ footer{
       left:35%;
       transform: translate(-50%,-50%);
     }
+
+    .texto-centralizado{
+        margin-bottom: 15%;
+        background-color: #f2f2f2;
+        font-size: 25px;
+      }
+      
+      .two-column-text{
+        column-count: 2;
+        column-gap: 10%;/*Espacio entre columnas*/
+        margin-right: 15%;
+        margin-left: 15%;
+        text-align: justify;
+        padding-bottom: 50px;
+        padding-top: 50px;
+      }
+      
   
   
   }
