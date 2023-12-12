@@ -1905,6 +1905,80 @@ footer{
 
 
 
+
+/*Segundo carrousel*/
+
+.carrousel-slide{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  
+  .white-background{
+    margin-left: 0;
+    height: 15%;
+  }
+  
+  .half{
+    display: flex;
+    align-items: normal;
+  }
+  
+  .half-width {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overflow {
+    display: none; /* Oculta la imagen de overflow en pantallas más pequeñas */
+  }
+  
+  .icon-text-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .icon-text-container img {
+    width: 80%; /* Centra y ocupa el 100% del contenedor */
+    max-width: 100%;
+  }
+  
+  .text-container {
+    padding-top: 20px;
+    text-align: center; /* Centra el texto */
+  }
+  
+  .ver-mas-btn {
+    margin-left: 25%;
+  }
+  
+  .servicios-text {
+      display: flex;
+      top:-3%;
+      left:28%;
+  }
+  
+  
+  .area-text{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 30%;
+    margin-top: 0;
+  }
+  
+  
+  #unico{
+    margin-left: 13%;
+  }
+  
+  .content p{
+    font-size: 18px;
+    text-align: center;
+  }
+
+
 }
 
 
@@ -2010,6 +2084,11 @@ footer{
                 color:#90ce67;
                 font-size: 35px;
               }
+
+              .overflow img{
+                width: 200px!important;
+              }
+
   
 }
 
@@ -2038,6 +2117,21 @@ footer{
         padding-top: 50px;
       }
       
+      
+  .overflow{
+    width: 30%!important;
+    left:65%;
+    top:15%;
+  }
+
+  .servicios-text{
+    margin-left: 8%;
+  }
+
+  .content{
+    width: 100%;
+  }
+
   
   
   }
