@@ -1952,6 +1952,33 @@ footer {
     transform: none;
     filter: none;
   }
+
+  /*Sección Redes sociales*/
+  .section-redes-sociales-right-half {
+    display: none;
+  }
+
+  .section-redes-sociales-left-half {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border-radius: 10px;
+  }
+
+  /*Formulario contacto*/
+  .section-contacto {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .section-contacto-column button {
+    width: 90%;
+  }
+
+  /*footer*/
+  #mapa {
+    display: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
