@@ -547,7 +547,8 @@ main{
     float:left;
     box-sizing: border-box;
     border: 1px solid #75b5f9;
-    margin-right: 20px;
+    margin-right: 4%;
+    margin-left: 4%;
     transition: transform 0.2s;
     border-radius: 4px;
 }
@@ -566,6 +567,23 @@ main{
     height: 15px;
     background: linear-gradient(to left, #ccc 0%, #fff 50%, #ccc 100%);
 }
+
+
+.gestAmbientalContenedor-content-header {
+    display: flex;
+    align-items: center;
+}
+
+.gestAmbientalContenedor-content-header img{
+   margin-right: 15px;
+}
+
+.logo-img{
+    max-width: 200px; /* Ajusta el tamaño máximo según sea necesario */
+    margin-left: 15%; /* Ajusta el margen según sea necesario */
+    padding-bottom: 15px;
+}
+
 
 
 /*Sección nuestros números*/
@@ -1767,22 +1785,6 @@ footer{
 
 
 
-.gestAmbientalContenedor-content-header {
-    display: flex;
-    align-items: center;
-}
-
-.gestAmbientalContenedor-content-header img{
-   margin-right: 15px;
-}
-
-.logo-img{
-    max-width: 200px; /* Ajusta el tamaño máximo según sea necesario */
-    margin-left: 15%; /* Ajusta el margen según sea necesario */
-    padding-bottom: 15px;
-}
-
-
 /*Estilos para Responsive*/
 
 @media(max-width: 768px){
@@ -1978,6 +1980,49 @@ footer{
     text-align: center;
   }
 
+  /*Gestion Ambiental*/
+
+  
+
+/*Gestión Ambiental*/
+
+.gestAmbientalContenedor-content-header img{
+    max-width: 60%;
+   }
+  
+   .card{
+    width: 65%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    border: 3px solid #75b5f9;
+  }
+  
+  .card h2{
+    font-size: 20px;
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+  
+  .gestAmbientalContenedor-content-header{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+  
+  .gestAmbientalContenedor h1 {
+    font-weight: lighter;
+    margin: 0 auto; /* Centro el h1 en todos los dispositivos */
+    max-width: 80%; /* Limita el ancho máximo para mejor legibilidad en dispositivos pequeños */
+    padding-left: 10%;
+  }
+  
+  .gestAmbientalContenedor-content-header p{
+    font-size: 20px;
+    text-align: center;
+  }
 
 }
 
@@ -2133,5 +2178,39 @@ footer{
   }
 
   
+  .gestAmbientalContenedor-header {
+    margin-right: 10%;
+    margin-left: 10%;
+    align-items: center;
+  }
+
+  .gestAmbientalContenedor-header h1{
+    font-size: 70px;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .gestAmbientalContenedor-content-header{
+    justify-content: center;
+  }
+
+  .logo-img {
+    max-width: 15%;
+    margin-right: 50%;
+    padding-bottom: 15px;
+}
+
+.card {
+  padding-bottom: 20px;
+  border: 2px solid #75b5f9;
+  margin-right: 4%;
+  border-radius: 10px;
+  margin-left: 2%;
+}
+
+.card h2{
+  margin-top: 0;
+  font-size: 30px;
+}
   
   }
