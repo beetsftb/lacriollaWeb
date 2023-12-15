@@ -95,6 +95,14 @@ header {
   display: none !important;
 }
 
+
+.green-line{
+    height: 5px;
+    background-color: #90ce67;
+    width: 100%;
+    margin-top: 5px;
+}
+
 /*Dropdown de lineas de trabajo*/
 
 .dropdown-lineas-trabajo {
@@ -837,7 +845,7 @@ footer {
 }
 
 .header-pagina-interna-izquierda .header-pagina-interna-derecha {
-  width: 50%;
+  width: 40%;
 }
 
 .header-pagina-interna-izquierda {
@@ -852,11 +860,11 @@ footer {
   left: -10px; /* Ajusta según sea necesario para la superposición */
 }
 
-.header-pagina-interna-izquierda img,
-.header-pagina-interna-derecha img {
-  width: 40%;
+.header-pagina-interna-izquierda img{
+  width: 20%;
   height: auto;
 }
+
 
 .header-pagina-interna-texto-header {
   background-color: #e2a869; /* Color de fondo del texto */
