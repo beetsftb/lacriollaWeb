@@ -1913,6 +1913,45 @@ footer {
     margin-left: 5%;
     margin-right: 5%;
   }
+
+  /*Seccion Sinergias*/
+
+  .section-sinergias {
+    width: 90%;
+    margin-right: 5%;
+    margin-left: 5%;
+    border: none;
+    text-align: center;
+    box-shadow: none;
+    padding-top: 5%;
+  }
+
+  .section-sinergias h2 {
+    font-size: 60px;
+    color: #90ce67;
+  }
+
+  .section-sinergias .section-sinergias-logos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que los elementos se envuelvan a la siguiente línea en pantallas pequeñas */
+    width: 100%;
+  }
+
+  .section-sinergias-logos .section-sinergias-logos-logo {
+    width: 30%; /* Cambiado el ancho para que haya dos columnas en pantallas pequeñas */
+    height: auto;
+    object-fit: contain;
+    margin: 10px;
+    padding: 10px;
+    filter: none;
+    background-color: white;
+  }
+
+  .section-sinergias-logos-logo:hover {
+    transform: none;
+    filter: none;
+  }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
