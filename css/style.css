@@ -1257,6 +1257,16 @@ footer {
   margin-right: 50px;
 }
 
+.nosotros-imagenes-header{
+    display: flex;
+}
+
+.nosotros-imagenes-header-uno{
+    width: 40%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
 .texto-centro-pagina-interna-nosotros {
   flex: 1;
   margin-left: 50px;
