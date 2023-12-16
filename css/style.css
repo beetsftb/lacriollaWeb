@@ -1122,7 +1122,7 @@ footer {
   height: auto;
   margin-top: 20px; /* Espacio entre la imagen y el contenido */
   border-radius: 10px; /* Radio de las esquinas de la imagen */
-  box-shadow: 12px 12px 8px rgba(226, 168, 106, 0.3);
+  box-shadow: 12px 12px 8px rgba(144, 206, 103, 0.3);
 }
 
 .texto-pagina-interna-segundo-texto {
@@ -2313,4 +2313,22 @@ footer {
   .section-donde-estamos .section-donde-estamos-header h1 {
     font-size: 40px;
   }
+  
+  .header-pagina-interna-derecha img{
+    width: 30%;
+    margin-left: 10%;
+  }
+
+  .imagen-centro-pagina-interna-agricultura{
+    padding-right: 10%;
+  }
+
+  .texto-pagina-interna-segundo-agricultura img{
+    margin-right: 10%;
+  }
+
+  .overflow-interna{
+    transform: translate(5%, -60%);
+  }
+
 }
