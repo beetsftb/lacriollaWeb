@@ -1227,17 +1227,7 @@ footer {
   margin-right: 55px;
 }
 
-.nuestro-feedlot-imagen-texto li::before {
-  content: "\2713";
-  display: inline-block;
-  width: 170px;
-  height: 30px;
-  color: #4acf50;
-  position: absolute;
-  left: -5px;
-  top: 60%;
-  transform: translateY(-50%);
-}
+
 
 /*Nosotros*/
 
@@ -1601,6 +1591,10 @@ footer {
 .nuestro-feedlot-imagen img {
   width: 300px;
   height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 12px 12px 8px rgba(226, 168, 106, 0.3);
+
 }
 
 .nuestro-feedlot-imagen-texto {
