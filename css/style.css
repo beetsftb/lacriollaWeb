@@ -1603,7 +1603,7 @@ footer {
   height: auto;
   max-width: 100%;
   border-radius: 10px;
-  box-shadow: 12px 12px 8px rgba(226, 168, 106, 0.3);
+  box-shadow: 12px 12px 8px rgba(71, 0, 122, 0.3);
 
 }
 
@@ -2098,6 +2098,36 @@ footer {
     text-align: center;
 }
 
+.texto-centro-pagina-interna h2{
+    text-align:start;
+}
+
+.texto-centro-pagina-interna p{
+    text-align: start;
+    font-size: 22px;
+}
+
+.texto-centro-pagina-interna strong{
+    font-size: 20px;
+}
+
+.texto-centro-pagina-interna ul{
+    font-size: 20px;
+}
+
+.texto-pagina-interna-segundo h2 {
+    text-align: start;
+}
+
+.texto-pagina-interna-segundo p {
+    font-size: 20px;
+}
+
+.texto-centro-pagina-interna-segundo ul{
+    font-size: 20px;
+}
+
+
 .imagen-centro-pagina-interna-agricultura{
     width: 80%;
  
@@ -2123,6 +2153,34 @@ footer {
     padding-left: 40px;
     border-radius: 50%;
 }
+
+.texto-pagina-interna-segundo img {
+    max-width: 100%;
+    width: 80%;
+    box-shadow: none;
+    padding-left: 40px;
+    border-radius: 50%;
+}
+
+.nuestras-crias{
+    flex-direction: column;
+}
+
+.nuestro-feedlot-imagen img {
+    border-radius: 50%;
+    box-shadow: none
+}
+
+.nuestra-cria-imagen-texto h2 {
+    text-align: center;
+}
+
+
+.nuestra-cria-imagen-texto p {
+    text-align: center;
+    font-size: 18px;
+}
+
 
 .footer-pagina-interna{
     width: 80%;
