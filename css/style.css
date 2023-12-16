@@ -729,6 +729,10 @@ button.next {
   margin-bottom: 50px;
 }
 
+.section-redes-sociales-left-half-buttons button a{
+    text-decoration: none;
+}
+
 .section-redes-sociales-right-half {
   width: 34%;
   background: url("../img/fondo_redes_sociales.png"); /* Reemplaza con la URL de tu imagen de fondo */
@@ -2166,6 +2170,14 @@ footer {
     flex-direction: column;
 }
 
+.nuestro-feedlot{
+    flex-direction: column;
+    width: 70%;
+    padding-left: 0;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
 .nuestro-feedlot-imagen img {
     border-radius: 50%;
     box-shadow: none
@@ -2176,10 +2188,17 @@ footer {
 }
 
 
+.imagen-centro-pagina-interna img{
+    border-radius: 50%;
+    box-shadow: none;
+}
+
 .nuestra-cria-imagen-texto p {
     text-align: center;
     font-size: 18px;
 }
+
+
 
 
 .footer-pagina-interna{
