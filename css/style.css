@@ -2056,7 +2056,80 @@ footer {
 .cultura-texto-encabezado p{
     font-size: 18px;
 }
-  
+
+/*Paginas internas*/
+
+.header-pagina-interna-derecha  img {
+    display: none;
+}
+
+.header-pagina-interna-izquierda {
+    flex-direction: column; /* Cambia la dirección del contenedor a columna para visualizar la imagen arriba y el texto debajo */
+    width: 50%;
+    margin: auto;
+    margin-top:50%; 
+  }
+
+  .header-pagina-interna-izquierda img{
+    width: 100%;
+}
+
+.centro-pagina-interna{
+    flex-direction: column;
+    width: 80%;
+
+}
+
+.area-text{
+    margin-left: 0;
+}
+
+.header-pagina-interna-texto-header-agricultura {
+    width: 80%;
+    font-weight: bold;
+    box-sizing: border-box;
+    font-size: 25px;
+    text-align: center;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.texto-centro-pagina-interna-agricultura {
+    text-align: center;
+}
+
+.imagen-centro-pagina-interna-agricultura{
+    width: 80%;
+ 
+}
+
+
+.imagen-centro-pagina-interna-agricultura img{
+    width: 70%;
+    margin-left: 10%;
+
+}
+
+.h2_agricultura{
+    text-align: center;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.texto-pagina-interna-segundo-agricultura img {
+    max-width: 100%;
+    width: 80%;
+    box-shadow: none;
+    padding-left: 40px;
+    border-radius: 50%;
+}
+
+.footer-pagina-interna{
+    width: 80%;
+   display: flex;
+   justify-content: center;
+}
+
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
