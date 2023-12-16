@@ -1991,6 +1991,55 @@ footer {
   #mapa {
     display: none;
   }
+
+
+  /*Paginas internas*/
+
+  .nosotros-imagenes-header{
+    flex-direction: column;
+    
+  }
+
+  .nosotros-imagenes-header-uno{
+    width: 90%;
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .header-pagina-interna-texto-header-nosotros {
+    width: 90%;
+    margin-left: 10%;
+    margin-right: 5%;
+    font-size: 20px;
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5px;
+  }
+
+  .centro-pagina-interna {
+   width: 90%;
+   margin-right: 0%;
+   margin-left: 0%;
+  }
+
+  .texto-centro-pagina-interna-nosotros {
+    margin-left: 0;
+    padding-right: 0;
+    text-align: justify;
+  }
+
+  .directorio_areas{
+    width: 100%;
+  }
+
+  .directorio_areas li{
+    font-size: 15px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
