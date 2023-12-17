@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="icon" href="./img/logo_mini.png" type="image/x-icon" />
+    <title>La Criolla - Agricultura</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <a href="index.html"
+          ><img src="./img/logo.png" alt="La Criolla" loading="lazy"
+        /></a>
+      </div>
+
+      <nav class="menu">
+        <li class="prensa-contacto"><a href="./prensa.html">PRENSA</a></li>
+        <li class="prensa-contacto"><a href="#">CONTACTO</a></li>
+        <li class="prensa-contacto">
+          <a
+            href="https://www.instagram.com/agropecuaria_lacriolla/"
+            target="_blank"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li class="prensa-contacto">
+          <a
+            href="https://api.whatsapp.com/send?phone=5492392614459&text=Hola, te contacto desde la página de La Criolla!"
+            target="_blank"
+            ><i class="fab fa-whatsapp"></i
+          ></a>
+        </li>
+        <li class="prensa-contacto">
+          <a
+            href="https://youtube.com/@lacriolla6626?si=dmE-AnXfc5mQl8Af"
+            target="_blank"
+            ><i class="fab fa-youtube"></i
+          ></a>
+        </li>
+        <li class="prensa-contacto facebook">
+          <a
+            href="https://www.facebook.com/agropecuariaLaCriollaSA"
+            target="_blank"
+            ><i class="fab fa-facebook"></i
+          ></a>
+        </li>
+        <hr />
+        <li><a href="./nosotros.html">Nosotros</a></li>
+        <li class="dropdown-lineas-trabajo">
+          <a href="#" class="dropbtn-lineas-trabajo"
+            >Líneas de Trabajo<span>&#9660;</span></a
+          >
+          <div class="dropdown-content-lineas-trabajo">
+            <a href="./agricultura.html">Agricultura</a>
+            <a href="./ganaderia.html">Ganadería</a>
+          </div>
+        </li>
+        <li><a href="./hoteleria.html">Hotelería</a></li>
+        <li><a href="./gestAmbiental.html">Gestión Ambiental</a></li>
+        <li><a href="index.html#sinergias">Sinergias</a></li>
+        <li><a href="./cultura.html">Cultura La Criolla</a></li>
+      </nav>
+    </header>
+
+    <main class="formulario-contacto">
+
+      <h2>Contacto</h2>
+      <p>Consulte las dudas que tenga que nuestro equipo se las responderá!</p>
+
+      <form action="#" method="post" class="contacto-form">
+        <!-- Puedes especificar la URL de tu servidor para procesar el formulario en 'action' -->
+
+        <label for="nombre">Nombre: <span>*</span></label>
+        <input type="text" id="nombre" name="nombre" required />
+
+        <label for="email">Email: <span>*</span></label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" />
+
+        <label for="area">Área:</label>
+        <select id="area" name="area" required>
+          <option value="agricultura">Agricultura</option>
+          <option value="ganaderia">Ganaderia</option>
+          <option value="hoteleria">Hoteleria</option>
+          <option value="rrhh">RRHH-CVs</option>
+          <option value="otros">Otros</option>
+        </select>
+
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto" required />
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+ 
+
+  </body>
+</html>

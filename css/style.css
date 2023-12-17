@@ -780,6 +780,11 @@ button.next {
   font-weight: bold;
 }
 
+.section-contacto-contact-button a {
+    text-decoration: none;
+    color: white;
+}
+
 .section-contacto-info {
   margin-left: 20px;
   color: white;
@@ -1680,6 +1685,81 @@ footer {
   text-align: justify;
 }
 
+/*Formulario Contacto*/
+
+.formulario-contacto{
+    font-family: "Plus Jakarta Sans";
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+.formulario-contacto option{
+    font-family: "Plus Jakarta Sans";
+  
+}
+
+.formulario-contacto h2{
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 15%;
+    color:#4acf50;
+    text-align:center
+}
+
+.formulario-contacto p{
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 15%;
+    text-align:center;
+    font-size: 18px;
+    margin-bottom: 5%;
+}
+
+.contacto-form span{
+    color:red;
+    font-weight: bold;
+}
+
+form {
+    max-width: 80%;
+    width: 60%;
+    margin-right: 15%;
+    margin-left: 15%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+
+  input,
+  select,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+
+  textarea {
+    height: 120px;
+  }
+
+.contacto-form  button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+
 /*Estilos para Responsive*/
 
 @media (max-width: 768px) {
@@ -2207,6 +2287,43 @@ footer {
    display: flex;
    justify-content: center;
 }
+
+/*Formulario contacto*/
+
+
+.formulario-contacto{
+    font-family: "Plus Jakarta Sans";
+    margin-top: 45%;
+    margin-bottom: 5%;
+}
+
+
+.formulario-contacto h2{
+    width: 90%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.formulario-contacto p{
+    width: 90%;
+    margin-right: 10%;
+    margin-left: 10%;
+    font-size: 20px;
+    margin-bottom: 5%;
+}
+
+form {
+    max-width: 80%;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: none;
+  }
+
+
 
 }
 
