@@ -730,7 +730,12 @@ button.next {
 }
 
 .section-redes-sociales-left-half-buttons button a{
+  color: #39b54a;
     text-decoration: none;
+}
+
+.section-redes-sociales-left-half-buttons button a:visited{
+  color: #39b54a;
 }
 
 .section-redes-sociales-right-half {
@@ -1759,6 +1764,10 @@ form {
     border-radius: 5px;
     cursor: pointer;
   }
+
+.contacto-form button a:visited{
+  color:white;
+}  
 
 /*Estilos para Responsive*/
 
