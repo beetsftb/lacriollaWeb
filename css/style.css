@@ -2081,10 +2081,8 @@ form {
     width: 90%;
   }
 
-  /*footer*/
-  #mapa {
-    display: none;
-  }
+
+
 
 
   /*Paginas internas*/
@@ -2331,7 +2329,14 @@ form {
     border-radius: 8px;
     box-shadow: none;
   }
+  /*footer*/
+  #mapa {
+    display: none;
+  }
 
+  #ocultar img {
+    width: 6px;
+  }
 
 
 }
