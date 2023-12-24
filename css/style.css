@@ -1772,6 +1772,11 @@ form {
 /*Estilos para Responsive*/
 
 @media (max-width: 768px) {
+
+  body, html {
+    overflow-x: hidden;
+  }
+
   header {
     flex-direction: column;
     align-items: center;
