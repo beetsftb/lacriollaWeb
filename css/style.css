@@ -1113,6 +1113,7 @@ footer {
   color: #90ce67 !important;
   margin-right: 55px;
   font-weight: bolder !important;
+  margin-left: 15%;
 }
 
 .texto-pagina-interna-segundo-agricultura {
@@ -1390,6 +1391,10 @@ footer {
   text-align: center;
 }
 
+#imagen_gest_ambiental_ocultar{
+  display: none; 
+}
+
 .texto-centro-pagina-interna-gest-ambiental {
   flex: 1;
   margin-left: 50px;
@@ -1553,6 +1558,7 @@ footer {
   color: #482223;
 }
 
+
 /*Pagina PRENSA*/
 
 .pagina-interna-prensa-img {
@@ -1619,6 +1625,15 @@ footer {
   max-width: 100%;
   border-radius: 10px;
   box-shadow: 12px 12px 8px rgba(71, 0, 122, 0.3);
+
+}
+
+.nuestro-cria-imagen img{
+  width: 300px;
+  height: auto;
+  max-width: 100%;
+  border-radius: 10px;
+  box-shadow: 12px 12px 8px rgba(226, 168, 106, 0.3);
 
 }
 
@@ -1768,6 +1783,10 @@ form {
 .contacto-form button a:visited{
   color:white;
 }  
+
+.checkmark{
+  display: none;
+}
 
 /*Estilos para Responsive*/
 
@@ -1997,6 +2016,8 @@ form {
     text-align: center;
   }
 
+
+
   /*Nuestros numeros*/
 
   .section-nuestros-numeros {
@@ -2094,19 +2115,20 @@ form {
 
   .nosotros-imagenes-header{
     flex-direction: column;
+    margin-top: 20%;
     
   }
 
   .nosotros-imagenes-header-uno{
-    width: 90%;
-    margin-top: 5%;
+    width: 80%;
+    margin-top: 15%;
     margin-left: 10%;
   }
 
   .header-pagina-interna-texto-header-nosotros {
-    width: 90%;
+    width: 80%;
     margin-left: 10%;
-    margin-right: 5%;
+    margin-right: 10%;
     font-size: 20px;
     text-align: center;
     padding-left: 5%;
@@ -2114,11 +2136,7 @@ form {
     padding-top: 5px;
   }
 
-  .centro-pagina-interna {
-   width: 90%;
-   margin-right: 0%;
-   margin-left: 0%;
-  }
+ 
 
   .texto-centro-pagina-interna-nosotros {
     margin-left: 0;
@@ -2126,8 +2144,20 @@ form {
     text-align: justify;
   }
 
+  .accordion-section{
+    margin-left: 0;
+  }
   .directorio_areas{
-    width: 100%;
+    width: 90%;
+  }
+
+  .directorio_areas h2{
+    text-align: center;
+    margin-left: 0;
+  }
+
+  .directorio_areas ul{
+    margin-left: 0;
   }
 
   .directorio_areas li{
@@ -2135,6 +2165,7 @@ form {
     list-style: none;
     padding: 0;
     margin: 0;
+    text-align: start;
   }
 
 
@@ -2142,16 +2173,18 @@ form {
 
   .header-pagina-interna-texto-header-cultura {
     font-size: 20px;
-    margin-top: 200px;
+    margin-top: 80%;
 }
 
 .cultura-texto-encabezado{
     width: 90%;
-    margin-left: 10%;
+    text-align: center;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .cultura-texto-encabezado p{
-    font-size: 18px;
+    font-size: 16px;
 }
 
 /*Paginas internas*/
@@ -2171,10 +2204,16 @@ form {
     width: 100%;
 }
 
+
+.header-pagina-interna-texto-header{
+  font-size: 25px;
+}
+
+
 .centro-pagina-interna{
     flex-direction: column;
-    width: 80%;
-
+  margin-right: 0%;
+  margin-left: 0%;
 }
 
 .area-text{
@@ -2182,47 +2221,95 @@ form {
 }
 
 .header-pagina-interna-texto-header-agricultura {
-    width: 80%;
+    width: 100%;
     font-weight: bold;
     box-sizing: border-box;
     font-size: 25px;
     text-align: center;
-    margin-right: 10%;
-    margin-left: 10%;
+}
+
+.header-pagina-interna-texto-header-gest-ambiental h2{
+  font-size: 25px;
+
+}
+
+.header-pagina-interna-texto-header-hoteleria{
+  font-size: 25px;
 }
 
 .texto-centro-pagina-interna-agricultura {
-    text-align: center;
+    text-align: start;
+    width: 90%;
+    margin-right: 10%;
+}
+
+.texto-centro-pagina-interna {
+  text-align: center;
+  margin-left: 0;
+  padding-right: 0;
+}
+
+.texto-centro-pagina-interna ul{
+  text-align: start;
+}
+
+.texto-centro-pagina-interna ul li{
+  padding-left: 25px;
 }
 
 .texto-centro-pagina-interna h2{
-    text-align:start;
+    text-align:center;
+}
+
+.imagen-centro-pagina-interna-ganaderia img{
+  width: 80%;
+  margin-left: 10%;
 }
 
 .texto-centro-pagina-interna p{
     text-align: start;
-    font-size: 22px;
 }
 
 .texto-centro-pagina-interna strong{
     font-size: 20px;
 }
 
-.texto-centro-pagina-interna ul{
-    font-size: 20px;
+
+
+.texto-pagina-interna-segundo{
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
 }
 
 .texto-pagina-interna-segundo h2 {
-    text-align: start;
+    text-align: center;
+    margin-left: 12%;
 }
 
 .texto-pagina-interna-segundo p {
-    font-size: 20px;
+    padding-left: 15%;
+    margin-right: 0;
 }
+
+.checkmark{
+  display:inline;
+}
+
+.texto-pagina-interna-segundo li::before {
+  content: none;
+
+}
+
+.texto-centro-pagina-interna-hoteleria li::before {
+  content: none;
+}
+
 
 .texto-centro-pagina-interna-segundo ul{
     font-size: 20px;
 }
+
 
 
 .imagen-centro-pagina-interna-agricultura{
@@ -2253,6 +2340,7 @@ form {
 
 .texto-centro-pagina-interna-hoteleria{
   width: 80%;
+  text-align: start;
 
 }
 
@@ -2278,7 +2366,7 @@ form {
     max-width: 100%;
     width: 80%;
     box-shadow: none;
-    padding-left: 40px;
+    padding-left: 20%;
     border-radius: 50%;
 }
 
@@ -2288,10 +2376,10 @@ form {
 
 .nuestro-feedlot{
     flex-direction: column;
-    width: 70%;
+    width: 90%;
     padding-left: 0;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .nuestro-feedlot-imagen img {
@@ -2313,17 +2401,34 @@ form {
 
 .nuestra-cria-imagen-texto h2 {
     text-align: center;
+    margin-left: 10%;
 }
 
+#imagen_gest_ambiental_ocultar{
+  display: flex;
+  margin-left: 15%;
+}
 
 .imagen-centro-pagina-interna img{
     border-radius: 50%;
     box-shadow: none;
 }
 
+
+.nuestra-cria-imagen-texto{
+  padding-right: 0;
+}
+
 .nuestra-cria-imagen-texto p {
     text-align: center;
-    font-size: 18px;
+}
+
+.nuestro-cria-imagen img {
+  width: 80%;
+  max-width: 100%;
+  border-radius: 50%;
+  box-shadow: none;
+  padding-left: 10%;
 }
 
 .texto-centro-pagina-interna-gest-ambiental {
