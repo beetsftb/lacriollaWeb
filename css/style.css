@@ -501,8 +501,6 @@ button.next {
 
 .gestAmbientalContenedor p {
   font-size: 25px;
-  padding-left: 15px;
-  padding-right: 15px;
   margin-top: 0;
 }
 
@@ -537,10 +535,6 @@ button.next {
 .gestAmbientalContenedor-content-header {
   display: flex;
   align-items: center;
-}
-
-.gestAmbientalContenedor-content-header img {
-  margin-right: 15px;
 }
 
 .logo-img {
@@ -860,6 +854,12 @@ footer {
 
 .header-pagina-interna-izquierda .header-pagina-interna-derecha {
   width: 40%;
+}
+
+.img_gest_ambiental_logo img{
+  width: 50%;
+  margin-left: 25%;
+  margin-top: 5%;
 }
 
 .header-pagina-interna-izquierda {
@@ -1955,12 +1955,13 @@ form {
     text-align: center;
   }
 
-  /*Gestion Ambiental*/
 
   /*Gestión Ambiental*/
 
   .gestAmbientalContenedor-content-header img {
-    max-width: 60%;
+    max-width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
   }
 
   .card {
@@ -1989,7 +1990,6 @@ form {
     font-weight: lighter;
     margin: 0 auto; /* Centro el h1 en todos los dispositivos */
     max-width: 80%; /* Limita el ancho máximo para mejor legibilidad en dispositivos pequeños */
-    padding-left: 10%;
   }
 
   .gestAmbientalContenedor-content-header p {
@@ -2251,6 +2251,29 @@ form {
     border-radius: 50%;
 }
 
+.texto-centro-pagina-interna-hoteleria{
+  width: 80%;
+
+}
+
+.texto-centro-pagina-interna-hoteleria h2{
+  text-align: center;
+
+}
+
+.texto-pagina-interna-segundo-hoteleria img{
+  width: 60%;
+  padding-left: 25%;
+  margin-top: 5%;
+}
+
+
+.texto-pagina-interna-segundo-hoteleria{
+  width: 90%;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
 .texto-pagina-interna-segundo img {
     max-width: 100%;
     width: 80%;
@@ -2276,6 +2299,18 @@ form {
     box-shadow: none
 }
 
+.nuestro-feedlot-imagen-texto ul li{
+  padding-left: 0;
+}
+
+.nuestro-feedlot-imagen-texto ul{
+  text-align: center;
+}
+
+.nuestro-feedlot-imagen-texto h2{
+  text-align: center;
+}
+
 .nuestra-cria-imagen-texto h2 {
     text-align: center;
 }
@@ -2291,11 +2326,18 @@ form {
     font-size: 18px;
 }
 
+.texto-centro-pagina-interna-gest-ambiental {
+  flex: 1;
+  text-align: center;
+  margin-left: 0;
+  padding-right: 0;
+}
+
 
 
 
 .footer-pagina-interna{
-    width: 80%;
+   width: 80%;
    display: flex;
    justify-content: center;
 }
@@ -2341,6 +2383,18 @@ form {
 
   #ocultar img {
     width: 6px;
+  }
+
+  #hoteleria{
+    margin-left: 35%;
+  }
+
+  .linea-trabajo-text{
+    left:20%;
+  }
+
+  .linea-trabajo-text-area{
+    margin-left: 30%;
   }
 
 
